@@ -107,3 +107,13 @@ article p{
     font-size: 20px;
     color: rgba(0, 0, 0, .8);
 }
+
+.resume {
+    background: rgb(216, 216, 216);
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: solid rgba(0,0,0,.8);
+}
