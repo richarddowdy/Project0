@@ -28,7 +28,7 @@ header {
 
 footer {
     text-align: center;
-    margin: 200px 0 0px 0;
+    margin: 200px 0 40px 0;
 }
 
 nav {
@@ -67,22 +67,23 @@ nav li {
 article {
     text-align: center;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1050px;
 }
 article p{
     text-align: center;
     text-indent: 70px;
     font-size: 22px;
     font-weight: 300;
-    line-height: 35px;
+    line-height: 38px;
 }
 
 .mahi {
     height: 175px;
     width: 200px;
     border-radius: 100px;
-    margin: 0;
+    margin: 0 auto;
 }
+
 .bottom_nav {
     padding: 0;
 }
@@ -97,7 +98,7 @@ article p{
 .bottom_nav li {
     list-style: none;
     display: inline;
-    margin: 0 100px;
+    margin: 0 20px;
 }
 
 .bottom_nav a {
@@ -113,12 +114,14 @@ article p{
     color: black;
     font-size: 30px;
     padding: 10px;
+    margin: auto;
     border-radius: 12px;
     text-decoration: none;
     border: solid rgba(0,0,0,.8);
+       
 }
 
 .download_icon {
-    height: 3%;
-    width: 3%;
+    height: 2%;
+    width: 2%;
 }
