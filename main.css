@@ -77,6 +77,11 @@ article p{
     line-height: 38px;
 }
 
+.interests {
+    display: inline-block;
+    
+}
+
 .about_greeting {
     font-size: 70px;
 }
@@ -148,20 +153,23 @@ article p{
     padding: 25px;
     border: solid 8px black;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .interests h2{
     margin: 30px;
     padding: 30px;
+    font-size: 20px;
 }
 
 .sp_link{
     float: left;
+    width: 50%;
 }
 
 .fishing_link {
-    float: right;
+    float: left;
+    width: 50%;
 }
 
 
