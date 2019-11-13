@@ -70,17 +70,21 @@ article {
     max-width: 1050px;
 }
 article p{
-    text-align: center;
-    text-indent: 70px;
+    text-align: left;
+    text-indent: 0px;
     font-size: 22px;
     font-weight: 300;
     line-height: 38px;
 }
 
+.about_greeting {
+    font-size: 70px;
+}
+
 .selfie {
-    height: 20%;
-    width: 20%;
-    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    margin: 0 30px 30px 0;
     border: solid 3px black;
     border-radius: 5%;
     box-shadow: 6px 8px rgb(221, 221, 221);
@@ -127,10 +131,37 @@ article p{
     border-radius: 12px;
     text-decoration: none;
     border: solid rgba(0,0,0,.8);
-       
 }
 
 .download_icon {
     height: 2%;
     width: 2%;
 }
+
+.interests h1{
+    font-size: 40px;
+}
+.interests a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+    margin: 30x;
+    padding: 25px;
+    border: solid 8px black;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.interests h2{
+    margin: 30px;
+    padding: 30px;
+}
+
+.sp_link{
+    float: left;
+}
+
+.fishing_link {
+    float: right;
+}
+
+
